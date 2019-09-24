@@ -5,7 +5,7 @@
 
 ## Authors
 1. Arpit Aggarwal (Github Username: arp95, Role: Driver)
-
+2. Ashwin Varghese Kuruttukulam (Github Username: ashwinvk94, Role: Navigator)
 ## Overview
 
 Simple starter C++ project with:
