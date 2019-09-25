@@ -1,0 +1,11 @@
+        -:    0:Source:/home/ashwin/Academics/enpm_808x/git_cloned/enpm808x_pid_controller/test/main.cpp
+        -:    0:Graph:/home/ashwin/Academics/enpm_808x/git_cloned/enpm808x_pid_controller/build/test/CMakeFiles/cpp-test.dir/main.cpp.gcno
+        -:    0:Data:/home/ashwin/Academics/enpm_808x/git_cloned/enpm808x_pid_controller/build/test/CMakeFiles/cpp-test.dir/main.cpp.gcda
+        -:    0:Runs:2
+        -:    0:Programs:1
+        -:    1:#include <gtest/gtest.h>
+        -:    2:
+        2:    3:int main(int argc, char** argv) {
+        2:    4:  ::testing::InitGoogleTest(&argc, argv);
+        2:    5:  return RUN_ALL_TESTS();
+        6:    6:}
