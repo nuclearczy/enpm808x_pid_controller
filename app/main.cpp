@@ -1,8 +1,7 @@
-#include <iostream>
-#include <lib.hpp>
+#include <PID.h>
 
 int main()
 {
-    dummy();
+    PID pid(2);
     return 0;
 }
