@@ -9,6 +9,8 @@ TEST(pidClassTest, should_pass) {
   // Testing whether the computer function works
   pid.setSetpoint(2);
   double controlOut;
-  controlOut = pid.compute(2);
-  EXPECT_EQ(controlOut, 0);
+  controlOut = pid.compute(3);
+  double Kp;
+  Kp = pid.getKp();
+  EXPECT_EQ(controlOut, -Kp);
 }
