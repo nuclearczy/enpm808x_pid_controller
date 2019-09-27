@@ -1,6 +1,5 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/arp95/enpm808x_pid_controller.svg?branch=master)](https://travis-ci.org/arp95/enpm808x_pid_controller)
-[![Coverage Status](https://coveralls.io/repos/github/arp95/enpm808x_pid_controller/badge.svg?branch=master)](https://coveralls.io/github/arp95/enpm808x_pid_controller?branch=master)
+
 ---
 
 ## Authors
