@@ -4,6 +4,7 @@ add_executable(
     cpp-test
     main.cpp
     test.cpp
+    ${CMAKE_SOURCE_DIR}/app/PID.cpp
 )
 
 target_include_directories(cpp-test PUBLIC ../vendor/googletest/googletest/include 

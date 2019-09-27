@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <vector>
+#include <ctime>
 
 class PID {
  private:
@@ -36,7 +37,12 @@ class PID {
      * @brief private variable for storing sum of errors.
     */
     double sumError;
-	
+
+    /**
+     * @brief private variable for storing previous time.
+    */
+    double prevTime;	
+
  public:
     /**
      * @brief  constructor for PID class with four parameters.
