@@ -1,0 +1,35 @@
+Checking app/main.cpp...
+Checking app/PID.cpp...
+[app/PID.cpp:10]: (warning) Member variable 'PID::Kp' is not initialized in the constructor.
+[app/PID.cpp:10]: (warning) Member variable 'PID::Ki' is not initialized in the constructor.
+[app/PID.cpp:10]: (warning) Member variable 'PID::Kd' is not initialized in the constructor.
+[app/PID.cpp:10]: (warning) Member variable 'PID::prevError' is not initialized in the constructor.
+[app/PID.cpp:10]: (warning) Member variable 'PID::sumError' is not initialized in the constructor.
+[app/PID.cpp:10]: (warning) Member variable 'PID::prevTime' is not initialized in the constructor.
+[app/PID.cpp:13]: (warning) Member variable 'PID::Kp' is not initialized in the constructor.
+[app/PID.cpp:13]: (warning) Member variable 'PID::Ki' is not initialized in the constructor.
+[app/PID.cpp:13]: (warning) Member variable 'PID::Kd' is not initialized in the constructor.
+[app/PID.cpp:13]: (warning) Member variable 'PID::prevError' is not initialized in the constructor.
+[app/PID.cpp:13]: (warning) Member variable 'PID::sumError' is not initialized in the constructor.
+[app/PID.cpp:13]: (warning) Member variable 'PID::prevTime' is not initialized in the constructor.
+[app/PID.cpp:16]: (warning) Member variable 'PID::Kp' is not initialized in the constructor.
+[app/PID.cpp:16]: (warning) Member variable 'PID::Ki' is not initialized in the constructor.
+[app/PID.cpp:16]: (warning) Member variable 'PID::Kd' is not initialized in the constructor.
+[app/PID.cpp:16]: (warning) Member variable 'PID::prevError' is not initialized in the constructor.
+[app/PID.cpp:16]: (warning) Member variable 'PID::sumError' is not initialized in the constructor.
+[app/PID.cpp:16]: (warning) Member variable 'PID::prevTime' is not initialized in the constructor.
+[app/PID.cpp:19]: (warning) Member variable 'PID::Kp' is not initialized in the constructor.
+[app/PID.cpp:19]: (warning) Member variable 'PID::Ki' is not initialized in the constructor.
+[app/PID.cpp:19]: (warning) Member variable 'PID::Kd' is not initialized in the constructor.
+[app/PID.cpp:19]: (warning) Member variable 'PID::prevError' is not initialized in the constructor.
+[app/PID.cpp:19]: (warning) Member variable 'PID::sumError' is not initialized in the constructor.
+[app/PID.cpp:19]: (warning) Member variable 'PID::prevTime' is not initialized in the constructor.
+[app/PID.cpp:46]: (style) The function 'compute' is never used.
+[app/PID.cpp:34]: (style) The function 'getKd' is never used.
+[app/PID.cpp:31]: (style) The function 'getKi' is never used.
+[app/PID.cpp:28]: (style) The function 'getKp' is never used.
+[app/PID.cpp:22]: (style) The function 'reset' is never used.
+[app/PID.cpp:43]: (style) The function 'setKd' is never used.
+[app/PID.cpp:40]: (style) The function 'setKi' is never used.
+[app/PID.cpp:37]: (style) The function 'setKp' is never used.
+[app/PID.cpp:25]: (style) The function 'setSetpoint' is never used.

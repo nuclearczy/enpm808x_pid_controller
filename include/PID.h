@@ -62,7 +62,7 @@ class PID {
     /**
      * @brief  constructor for PID class with one parameter.
     */	
-    PID(double kpValue);
+    explicit PID(double kpValue);
 
     /**
      * @brief  resets all the private variables of the class to zero.
