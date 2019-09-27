@@ -38,9 +38,9 @@ class PID {
   double sumError;
 
   /**
-   * @brief private variable for storing previous time.
+   * @brief private variable for storing time step.
    */
-  double prevTime;
+  double deltaTime;
 
   /**
    * @brief private variable for storing the pid setpoint.
@@ -69,8 +69,7 @@ class PID {
   explicit PID(double kpValue);
 
   /**
-   * @brief  resets all the private variables of the class to zero except @prevTime.
-   * Set @prevTime to the current time
+   * @brief  resets all the private variables of the class to zero except @deltaTime.
    * @param  no parameter.
    * @return type void.
    */
@@ -105,6 +104,13 @@ class PID {
   double getKd();
 
   /**
+   * @brief  sets the dt value.
+   * @param  one parameter which is the deltaTime value.
+   * @return type void.
+   */
+  void setDt(double dtValue);
+
+  /**
    * @brief  sets the kp value.
    * @param  one parameter which is the kp value.
    * @return type void.
@@ -127,8 +133,7 @@ class PID {
 
   /**
    * @brief  This function calculates the pid output using @feedback and setpoint.
-   * Error is setpoint-@feedback. dt is updated by calculating the difference between
-   * the current time and @prevTime
+   * Error is setpoint-@feedback.
    * @param  one parameter which is the feedback value.
    * @return type double.
    */
